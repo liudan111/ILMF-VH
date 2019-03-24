@@ -18,7 +18,7 @@ code/dowload_virus.py is used to retrieve the viral genomes from NCBI based on t
 
 code/similarity_os.py and code/main.py are used to calculate Gaussian interaction profile kernel similarity between hosts.
 
-code/PyDTI.py and code/nrlmf.py  are used to predict scores between viruses and hosts
+code/nrlmf.py  are used to predict scores between viruses and hosts and code/PyDTI.py is main function which is applied to execute model simply
 
 The codes of KBMF,NetLapRLS,BLM-NII ,CMF can refer to codes of Yong et al.https://github.com/stephenliu0423/PyDTI [3].
 
