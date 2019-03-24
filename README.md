@@ -1,4 +1,4 @@
-# LMFH-VH
+# IMFH-VH
 
 Kernelized Logistic Matrix Factorization based on Similarity Network Fusion for Predicting Virus-host Association
 ===========
