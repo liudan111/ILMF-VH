@@ -1,10 +1,9 @@
 # LMFH-VH
 
-Virus-host Association Prediction by using Kernelized Logistic Matrix Factorization on Heterogeneous Networks
+Kernelized Logistic Matrix Factorization based on Similarity Network Fusion for Predicting Virus-host Association
 ===========
-Dan Liu
-
-Email: liudan@mails.ccnu.edu.cn
+Xingpeng Jiang, xpjiang@mail.ccnu.edu.cn 
+Dan Liu, liudan@mails.ccnu.edu.cn
 
 School of Computer,Central China Normal University Wuhan, China
 
@@ -19,7 +18,9 @@ code/dowload_virus.py is used to retrieve the viral genomes from NCBI based on t
 
 code/similarity_os.py and code/main.py are used to calculate Gaussian interaction profile kernel similarity between hosts.
 
-The codes of NRLMF,KBMF,NetLapRLS,BLM-NII ,CMF can refer to codes of Yong et al.https://github.com/stephenliu0423/PyDTI [3].
+code/PyDTI.py and code/nrlmf.py  are used to predict scores between viruses and hosts
+
+The codes of KBMF,NetLapRLS,BLM-NII ,CMF can refer to codes of Yong et al.https://github.com/stephenliu0423/PyDTI [3].
 
 Note:the code is implemented by Python 2.7.9
 
@@ -27,19 +28,17 @@ Note:the code is implemented by Python 2.7.9
 ---------------
 datasets/dataset I including 71 hosts and 352 viruses which only one specific host genome appeared in the prokaryotic genome database at NCBI[2].
 
-datasets/dataset II including 1075 hosts and 432 viruses which the isolation hosts are all at the species or strain level[2].
+datasets/dataset II including 2699 hosts and 820 viruses which is downloaded from RefSeq on 7/25/2015[1].
 
-datasets/dataset III including 2699 hosts and 820 viruses which is downloaded from RefSeq on 7/25/2015[1].
+datasets/onf including onf measures of viruses and hosts which are obtained by Jie Ren's tools [2].
 
-datasets/onf including onf measures of 352,432 and 820 viruses which are obtained by Jie Ren's tools [2].
-
-Note: Jie Ren's tools is used to get dissimilarity  between viruses,you should transform to similarity.
+Note: Jie Ren's tools is used to get dissimilarity between viruses,you should transform to similarity.
 
 Reference and Citation
 ------------
 If you use this codes , please cite the following paper:
 
-Virus-host Association Prediction by using Kernelized Logistic Matrix Factorization on Heterogeneous Networks
+Kernelized Logistic Matrix Factorization based on Similarity Network Fusion for Predicting Virus-host Association
 
 Our Reference  
 ------------
